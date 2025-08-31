@@ -1,0 +1,5 @@
+{
+  "name": "hello-world",
+  "main": "extension.js",
+  "activationEvents": ["*"]
+}
