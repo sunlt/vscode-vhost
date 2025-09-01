@@ -1,0 +1,6 @@
+extensions/roo-code/
+worker/test-extension/
+node_modules/
+dist/
+testworkspace/
+coverage/

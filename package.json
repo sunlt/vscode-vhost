@@ -1,0 +1,36 @@
+{
+  "name": "vscode-vhost",
+  "version": "1.0.0",
+  "description": "这是一个基于 Node.js 的 VS Code 扩展宿主模拟器，支持多个扩展并行、隔离运行，并提供最小化的 VS Code API。该模拟器允许开发者在独立环境中测试和运行 VS Code 扩展。",
+  "homepage": "https://github.com/sunlt/vscode-vhost#readme",
+  "bugs": {
+    "url": "https://github.com/sunlt/vscode-vhost/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunlt/vscode-vhost.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-textdocument": "^1.0.12"
+  }
+}
